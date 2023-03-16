@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+body {
+  padding: 7%;
+  background-color: hsl(0, 19%, 95%);
+  min-height: 100vh;
+}
+main{
+  display: grid;
+  gap: 1.5rem;
+} 
+
+article{
+  display: grid;
+}
+
+img {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.image-and-name-container {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.Dans-img,
+.Pats-img{
+  border: 2px solid rgb(215, 144, 215);
+}
+span{
+ color: hsl(0, 0%, 81%) ;
+ opacity: 50%; 
+ font-size: smaller;
+}
+
+p.review{
+  color:   hsl(0, 0%, 66%);
+  opacity: 70%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  
+}
+svg {
+  position: absolute; 
+  left: 70%;
+  top: 0%;
+  opacity: 0.8;
+
+    
+}  
+
+.Daniels-profile {
+  background-color: hsl(263, 55%, 52%);
+  padding: 4%;
+  border-radius: 10px;
+  position: relative;  
+}
+
+.Jonathans-profile {
+  background-color: hsl(217, 19%, 35%);
+  padding: 4%;
+  border-radius: 10px;
+}
+
+.Jeanettes-profile {
+  background-color: hsl(0, 0%, 100%);
+  padding: 4%;
+  border-radius: 10px;
+}
+
+.patricks-profile {
+  background-color: hsl(219, 29%, 14%);
+  padding: 4%;
+  border-radius: 10px;
+}
+
+.kiras-profile {
+  background-color:hsl(0, 0%, 100%);
+  padding: 4%;
+  border-radius: 10px;
+}
+strong{
+  font-size: 20px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:hsl(0, 0%, 100%) ;
+}
+
+strong.strong{
+  color:hsl(0, 1%, 73%) ;
+}
+.attribution{
+  margin: 10%;
+}
+@media(min-width:1000px){
+  main {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(4,1fr);
+  
+    }
+.first-template,
+.fourth-template{
+  grid-column: span 2;
+}
+.fifth-template{
+  grid-column-start: 4;
+  grid-row: 1/3;
+}
+
+
+}
+
+
